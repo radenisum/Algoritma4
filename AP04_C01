@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+void main ()
+{
+	int nilai; 
+
+	//memberikan informasi agar user memasukkan sebuah bil bulat
+
+	cout<< "memasukkan sebuah bilangan bulat: ";
+
+	//membaca nilai yang dimasukkan oleh keyboard dan disimpan ke variabel nilai
+
+	cin>>nilai;
+	if(nilai > 0);
+	{
+		cout<<endl<<"nilai yang anda masukkan bilangan positif"<<endl;
+	}
+
+	else if(nilai == 0)
+	{
+		cout<<endl<<"niali yang anda masukkan sama dengan nol" << endl;
+	}
+
+	else (nilai < 0)
+	{
+		cout<<endl<<"nilai yang anda masukkan bilangan negatif" <<endl;
+	}
+
+	system ("pause");
+	
+	return 0;
+
+}
+
